@@ -1,0 +1,66 @@
+name: lessontrack
+description: "LessonTrack — Organize your children's private lessons. An offline-first Flutter application for parents."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── State Management ──────────────────────────────────────
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # ── Navigation ────────────────────────────────────────────
+  go_router: ^14.2.7
+
+  # ── Local Database ────────────────────────────────────────
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  # ── Notifications ─────────────────────────────────────────
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+
+  # ── UI & Fonts ────────────────────────────────────────────
+  google_fonts: ^6.2.1
+
+  # ── Utilities ─────────────────────────────────────────────
+  uuid: ^4.4.0             # UUID generation for entity IDs
+  intl: ^0.19.0            # Date/time formatting, localization
+  path_provider: ^2.1.4    # File paths for Hive init
+  image_picker: ^1.1.2     # Child profile photo selection
+
+  # ── Icons (optional, delete if using Material Icons only) ─
+  # flutter_svg: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # ── Code Generation ───────────────────────────────────────
+  build_runner: ^2.4.9
+  # hive_generator pinned below riverpod_generator's analyzer constraint
+  hive_generator: ^1.1.3
+  riverpod_generator: ^2.4.0
+  custom_lint: ^0.6.4
+  riverpod_lint: ^2.3.10
+
+  # ── Testing ───────────────────────────────────────────────
+  mocktail: ^1.0.3
+
+  # ── Linting ───────────────────────────────────────────────
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets will be added here as needed:
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # Google Fonts are loaded at runtime, no font declarations needed here.
