@@ -47,7 +47,7 @@ LessonTrack is a premium, offline-first Flutter mobile application that helps pa
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/lessontrack.git
+git clone https://github.com/OmarT-hub/lessonTrack.git
 cd lessontrack
 
 # Install dependencies
